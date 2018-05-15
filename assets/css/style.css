@@ -1,0 +1,60 @@
+
+body { 
+    background-image: url("../images/curtain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+button {
+    background-color: black;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50%;
+    margin: 10px;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#gifsContainer {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#buttonContainer {
+    width:100%;
+    /*height: 150px;*/
+    background-color: transparent;
+    border-style: dotted;
+    border-color: white;
+    margin: 10px 5px 10px 5px;
+
+}
+
+img {
+    border-style: dotted;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+
+}
+
+.gifImage {
+    color: white;
+}
+
+
+
